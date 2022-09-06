@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* chrome */
 input::-webkit-slider-thumb {
   @apply appearance-none w-2 cursor-pointer bg-purple-900/80;
-  height: var(--element-height);
+  height: var(--wrapper-height);
 }
 
+/* firefox */
 input::-moz-range-thumb {
   @apply appearance-none w-2 cursor-pointer bg-purple-900/80 border-none rounded-none;
-  height: var(--element-height);
+  height: var(--wrapper-height);
 }
